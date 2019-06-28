@@ -12,3 +12,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet, libero e
    Cras et sapien arcu. Curabitur quis ipsum a ante ornare sollicitudin. Donec cursus nisi sed mauris ultricies fermentum sed a eros. Suspendisse at odio turpis. Sed ornare nisl ligula, ut malesuada nunc pharetra posuere.
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis ac lorem iaculis, mollis lectus eget, sagittis sapien. Morbi volutpat faucibus egestas. Praesent blandit fermentum convallis. Pellentesque id nulla consequat, ullamcorper lectus eu, dictum mauris. Suspendisse potenti. Maecenas eleifend, lectus et pretium aliquam, mi ex accumsan leo, sit amet suscipit arcu enim nec leo. Vivamus sit amet iaculis nibh. Praesent lacus est, tincidunt sit amet gravida ut, viverra laoreet neque.
+
+.. example:: Example with a title
+   :tags: tag-1
+
+   Some content
+
+   Title
+   =====
+
+   This example includes a title.
+
+   Subsection
+   ----------
+
+   This example also has subsections.
+
+   Subsection 2
+   ------------
+
+   Another subsection.
+
+This paragraph isn't part of the example.
+
+.. example:: Example starting with a title
+   :tags: tag-1
+
+   Example starting with a title
+   =============================
+
+   This example starts with a title.
