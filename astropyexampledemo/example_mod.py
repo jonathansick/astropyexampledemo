@@ -14,6 +14,16 @@ def primes(imax):
     -------
     result: list
         The list of prime numbers.
+
+    Examples
+    --------
+
+    .. example:: Using primes
+
+       This is an example.
+
+       >>> primes(3)
+       [1, 3, 5]
     """
 
     p = list(range(10000))
@@ -40,6 +50,23 @@ def primes(imax):
 
 
 def do_primes(n, usecython=False):
+    """Compute a set number of prime numbers.
+
+    Parameters
+    ----------
+    n: int
+        The number of primes to return. This should be less or equal to 10000.
+
+    Examples
+    --------
+
+    .. example:: Using do_primes
+
+       This is an example.
+
+       >>> do_primes(3)
+       [1, 3, 5]
+    """
     if usecython:
 
         raise Exception("This template does not have the example C code included.")

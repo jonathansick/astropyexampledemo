@@ -42,3 +42,7 @@ This paragraph isn't part of the example.
    =============================
 
    This example starts with a title.
+
+Make a change to this page that doesn't affect the examples.
+
+Make another change.
