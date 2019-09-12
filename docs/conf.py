@@ -196,4 +196,7 @@ github_issues_url = 'https://github.com/{0}/issues/'.format(setup_cfg['github_pr
 #     target = target.strip()
 #     nitpick_ignore.append((dtype, six.u(target)))
 
-intersphinx_mapping = {}
+intersphinx_mapping = {
+    'astropy': ('https://docs.astropy.org/en/stable/', None),
+    'numpy': ('https://docs.scipy.org/doc/numpy/', None)
+}

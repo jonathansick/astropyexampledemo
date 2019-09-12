@@ -39,7 +39,7 @@ quantities with different units::
    :tags: units
 
    Unit conversion is done using the
-   ``astropy.units.quantity.Quantity.to`` method, which returns a new
+   `astropy.units.quantity.Quantity.to` method, which returns a new
    quantity in the given unit::
    
        >>> x = 1.0 * u.parsec
@@ -82,12 +82,15 @@ knows about::
 .. example:: Convert SI units to CGS
    :tags: units
 
-   And it can convert between unit systems, such as SI or CGS:
+   And `astropy.units` can also convert between unit systems, such as SI or CGS:
 
    .. doctest-skip::
    
        >>> (1.0 * u.Pa).cgs
        <Quantity 10.0 Ba>
+
+   This is an external link: https://docs.astropy.org.
+   :doc:`page2`.
 
 The units ``mag``, ``dex`` and ``dB`` are special, being logarithmic units, for
 which a value is the logarithm of a physical quantity in a given unit.  These
