@@ -87,7 +87,7 @@ knows about::
    .. doctest-skip::
    
        >>> (1.0 * u.Pa).cgs
-       <Quantity 10.0 Ba>
+       <Quantity 10. P / s>
 
    This is an external link: https://docs.astropy.org.
    :doc:`page2`.
