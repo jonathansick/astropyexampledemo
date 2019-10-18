@@ -200,3 +200,5 @@ intersphinx_mapping = {
     'astropy': ('https://docs.astropy.org/en/stable/', None),
     'numpy': ('https://docs.scipy.org/doc/numpy/', None)
 }
+
+astropy_examples_enabled = True
