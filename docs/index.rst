@@ -9,4 +9,5 @@ This is the documentation for astropyexampledemo.
 
   page1.rst
   page2.rst
+  page3.rst
   examples/index.rst
