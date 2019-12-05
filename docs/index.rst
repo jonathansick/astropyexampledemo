@@ -5,9 +5,12 @@ This is the documentation for astropyexampledemo.
 
 
 .. toctree::
-  :maxdepth: 2
+   :maxdepth: 2
 
-  page1.rst
-  page2.rst
-  page3.rst
-  examples/index.rst
+   page1.rst
+   page2.rst
+   page3.rst
+   substitutions.rst
+   footnotes.rst
+   images.rst
+   examples/index.rst
